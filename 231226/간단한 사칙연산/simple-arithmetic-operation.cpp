@@ -3,7 +3,9 @@ using namespace std;
 
 int main() {
 
-	int a = 2, b = 5;
+	int a,b;
+	cin >> a;
+	cin >> b;
 
 	cout << a + b << endl << a - b << endl << a / b << endl << a%b;
 

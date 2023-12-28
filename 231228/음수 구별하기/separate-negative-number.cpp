@@ -7,7 +7,7 @@ int main() {
 	cin >> a;
     cout << a << endl;
 
-	if (a << 0) {
+	if (a < 0) {
 		
 		cout << "minus" ;
 		

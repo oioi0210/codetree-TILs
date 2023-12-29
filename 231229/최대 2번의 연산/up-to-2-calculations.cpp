@@ -7,8 +7,8 @@ int main() {
 int b;
 	cin >> a;
 
-	if (a % 2 == 0) {
-	
+	if (a % 2 == 1) {
+	 cout << a/2;
 	}
 b=a/2;
 	if (b %2 == 1) {

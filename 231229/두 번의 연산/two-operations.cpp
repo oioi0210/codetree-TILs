@@ -7,7 +7,7 @@ int main() {
 
 	cin >> a;
 
-	if (a % 2 != 0) {
+	if (a % 2 == 1) {
 		a=a+3;
 	}
    

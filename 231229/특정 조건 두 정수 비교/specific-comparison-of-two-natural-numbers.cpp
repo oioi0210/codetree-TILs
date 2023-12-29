@@ -8,13 +8,17 @@ int main() {
 	cin >> a;
 cin >>b;
 	if (a <b) {
-		cout << "1 0" << endl;
+		cout << "1" ;
 	}
-	else if ( a=b) {
-		cout << "0 1" << endl;
-	}
-	else if (a> b) {
-		cout << "0 0" << endl;
+	else  {
+		cout << "0" << endl;
 	}
 	
+	 if (a= b) {
+		cout << " 0" << endl;
+	}
+	else {
+		cout << " 1" << endl;
+	}
+
 }

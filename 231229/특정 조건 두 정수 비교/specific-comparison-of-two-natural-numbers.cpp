@@ -14,11 +14,11 @@ cin >>b;
 		cout << "0" ;
 	}
 	
-	 if (a= b) {
-		cout << " 0" << endl;
+	 if (a== b) {
+		cout << " 1" << endl;
 	}
 	else {
-		cout << " 1" << endl;
+		cout << " 0" << endl;
 	}
 
 }

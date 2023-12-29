@@ -7,10 +7,10 @@ int main() {
 
 	cin >> a;
 
-	if (a % 2 == 1) {
-		a=a+3;
+	if (a % 2 == 0) {
+		
 	}
-   
+   else {a=a+3;}
 
 	if (a%3 ==0) {
 		cout << a/3<< endl;

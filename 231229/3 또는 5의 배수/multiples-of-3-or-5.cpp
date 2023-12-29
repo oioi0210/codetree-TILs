@@ -7,14 +7,19 @@ int main() {
 
 	cin >> a;
 
-	if (a %3 ==0) {
+	if (a==1) {
+		cout << "NO"<< endl ;
+	}
+	else if (a %3 ==0) {
 		cout << "YES"<< endl ;
 	}
 	else  {
 		cout << "NO"<< endl ;
 	}
-	
-	 if (a%5==0) {
+	if (a==1) {
+		cout << "NO"<< endl ;
+	}
+	 else if (a%5==0) {
 		cout << "YES" << endl;
 	}
 	else {

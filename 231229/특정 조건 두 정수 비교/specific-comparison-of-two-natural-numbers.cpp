@@ -11,7 +11,7 @@ cin >>b;
 		cout << "1" ;
 	}
 	else  {
-		cout << "0" << endl;
+		cout << "0" ;
 	}
 	
 	 if (a= b) {

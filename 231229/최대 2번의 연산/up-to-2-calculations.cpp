@@ -7,7 +7,7 @@ int main() {
 int b;
 	cin >> a;
 
-	if (a % 2 != 0) {
+	if (a >=2 ,a % 2 != 0) {
 	 cout << a/2;
 	  
 	}

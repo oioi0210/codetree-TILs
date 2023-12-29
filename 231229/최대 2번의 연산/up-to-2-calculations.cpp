@@ -9,7 +9,10 @@ int b;
 
 	if (a % 2 != 0) {
 	 cout << a/2;
+	  
 	}
+
+if   (a==1) {cout << a;}
 b=a/2;
 	if (b %2 == 1) {
 		cout << (b+1)/2<< endl;

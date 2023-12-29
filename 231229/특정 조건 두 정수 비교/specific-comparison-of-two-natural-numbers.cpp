@@ -13,6 +13,8 @@ cin >>b;
 	else if ( a=b) {
 		cout << "0 1" << endl;
 	}
-
+	else {
+		cout << "0 0" << endl;
+	}
 	
 }

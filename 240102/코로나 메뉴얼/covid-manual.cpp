@@ -17,7 +17,7 @@ cin >> f;
         cout << "E";
         }
         else {
-            cout << "F";
+            cout << "N";
         }
     
           

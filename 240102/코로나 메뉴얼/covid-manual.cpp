@@ -27,6 +27,9 @@ cin >> f;
         if (e=='Y' && f >= 37){
             cout << "E";
         }
+        else {
+            cout << "N";
+        }
         }
          
         

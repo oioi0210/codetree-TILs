@@ -30,8 +30,12 @@ cin >> f;
         else {
             cout << "N";
         }
+     }
+
+        else {
+            cout << "N";
         }
-         
+        
         
         return 0;
         

@@ -17,6 +17,7 @@ int main() {
     if (c == 'D') {
 		for (int i = n; i <= 1; i--) {
 			cout << i << " ";
+			i--;
 		}
 	}
 

@@ -10,15 +10,16 @@ int main() {
 
 
   if (c == 'D') {
-		for (int i = n; i <= 1; i--) {
+		for (int i = n; i <= 1;) {
 			cout << i << " ";
-			
+			i--;
 		}
 	}
 
 	if (c == 'A') {
-		for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= n;) {
 			cout << i << " ";
+			i++;
 		}
 	}
 	

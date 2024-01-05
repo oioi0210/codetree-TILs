@@ -9,8 +9,6 @@ int main() {
 	// 입력
 	cin >> n;
 	
-
-   
 	for(int i=0; i <= n; i++) {
       int n;
       cin >>n;

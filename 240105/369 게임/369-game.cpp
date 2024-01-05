@@ -20,6 +20,18 @@ int main() {
 		cout << 0 << " ";
 
 	}
+	else if ( i >=30 && i<40 ) {
+		cout << 0 << " ";
+
+	}
+	else if ( i >=60 && i<70 ) {
+		cout << 0 << " ";
+
+	}
+	else if ( i >=90 && i<100 ) {
+		cout << 0 << " ";
+
+	}
 	else {
 		cout << i << " ";
 

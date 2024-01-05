@@ -16,7 +16,8 @@ int main() {
 		cout << a << endl;
 	}
 	else {
-
+cout << a << endl;
+	}
     }
 	}
 

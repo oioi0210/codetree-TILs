@@ -4,18 +4,26 @@ using namespace std;
 int main() {
 
 	
-	int cnt = 0;
+	int a = 0;
+    int b =0;
 
 	for (int i = 1; i < 11; i++) {
         int n;
         cin >> n;
-		if ((i % 3 == 0) || (i%5==0)) {
-			cnt++;
+		if (n % 3 == 0 &&  n%5 ==0)  {
+			a++;
+            b++;
 		}
+        else if ( n%5 ==0){
+            b++;
+        }
+         else if ( n%3 ==0){
+            a++;
+        }
      
 	}
 
-	cout << cnt << " " << cnt ;
+	cout << a << " " << b ;
 	return 0;
 
 }

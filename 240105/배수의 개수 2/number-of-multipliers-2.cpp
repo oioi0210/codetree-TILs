@@ -12,6 +12,9 @@ int main() {
 		if (i % 2 == 1) {
 			cnt++;
 		}
+        else if ( i==1 ){
+            cnt++;
+        }
 	}
 
 	cout << cnt;

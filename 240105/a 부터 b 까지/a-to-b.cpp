@@ -1,24 +1,24 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
+    // 변수 선언
+    int a, b, i;
 
-	int a,b;
-cin >>a>>b;
-
-	for (int i = a; i >=b;i++ ) {
-		if (a%2 == 1) {
-			cout << 2 * a << " ";
-			
-		}
-		
-		else   {
-			cout << (a+3) << " " ;
-		
-    }
-
-    }
+	// 입력
+	cin >> a >> b;
 	
-	return 0;
+	i = a;
+    
+    // 출력
+	while(i <= b) {
+		cout << i << " ";
+		if(i % 2 == 1)
+			i *= 2;
+		else
+			i += 3;
+	}
 
+    return 0;
 }

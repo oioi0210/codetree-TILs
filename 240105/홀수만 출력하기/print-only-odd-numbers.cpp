@@ -9,7 +9,7 @@ int main() {
 	// 입력
 	cin >> n;
 	
-	if (n%3==0 && n%2==0) {
+	if (n%3==0 && n%2==1) {
 		cout << n << endl;
 	}
     

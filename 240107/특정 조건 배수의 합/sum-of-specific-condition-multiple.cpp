@@ -18,6 +18,16 @@ cnt++;
     
 
     }
+    	for (int i = b; i <= a; i++) {
+     
+      if ( i%5==0) {
+sum_val += i;
+cnt++;
+    }
+    
+
+    }
+
 
    
    

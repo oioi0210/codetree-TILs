@@ -9,7 +9,7 @@ int main() {
 		cin >> n;
 
 		
-		if (n >= 30) {
+		if ((n<=19) ||(n >= 30)) {
 			
 			break;
 		}
@@ -22,7 +22,7 @@ int main() {
 	}
     cout<<fixed;
     cout.precision(2);
-          mid =  (double) sum/cnt;
+     mid =  (double) sum/cnt;
 
    
     cout << mid;

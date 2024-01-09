@@ -24,8 +24,7 @@ int main() {
     cout.precision(2);
           mid =  (double) sum/cnt;
 
-    cout<<fixed;
-    cout.precision(2);
+   
     cout << mid;
 	
 	return 0;

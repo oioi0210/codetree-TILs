@@ -14,7 +14,7 @@ int main() {
            
 		
 		else if (n%2 ==1) { 
-            (n*3) +1;
+            n=(n*3) +1;
 			cnt++;
 		}
         else if (n%2 == 0) {

@@ -7,18 +7,20 @@ int main() {
     int cnt =0;
 	while (true) {
 		cin >> n;
-		if (n%2 == 0) {
-			n = n / 2;
-            cnt++;
-		}
+
+		if(n==1){
+			break;
+        }
+           
+		
 		else if (n%2 ==1) { 
             (n*3) +1;
 			cnt++;
 		}
-        else if (n==1) {
-            break;
-        }
-        
+        else if (n%2 == 0) {
+			n = n / 2;
+             cnt++;
+		}
 	}
 	cout << cnt;
 

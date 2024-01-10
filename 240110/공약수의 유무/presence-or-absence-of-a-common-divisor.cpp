@@ -14,10 +14,10 @@ int main() {
 		}
 	}
 	if (satisfied == true) {
-		cout << 1;
+		cout << 0;
 	}
 	else {
-		cout << 0;
+		cout << 1;
 	}
 
 	return 0;

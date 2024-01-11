@@ -13,7 +13,7 @@ int main() {
 		}
 	}
 	if (satisfied == true) {
-		cout << "N";
+		cout << "C";
 	}
 	else {
 		cout << "P";

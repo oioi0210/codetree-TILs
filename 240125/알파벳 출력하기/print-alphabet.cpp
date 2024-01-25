@@ -12,6 +12,7 @@ for (int j =1; j<=i; j++ ){
     x++;
     if (x >25) {
         char x='A';
+        x=1;
     }
 }
 cout << endl;

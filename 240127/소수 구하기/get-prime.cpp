@@ -18,7 +18,7 @@ int main() {
            }
     
             if(sum == 2) {
-          cout << s << " ";
+          cout << i << " ";
            }
           
         } 

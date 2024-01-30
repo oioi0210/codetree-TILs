@@ -8,7 +8,8 @@ cin >> n;
 	int arr[n];
 
 	for (int i = 0; i < n; i++) {
-		arr[i] *= 2;
+        cin >> arr[i];
+		arr[i] *= arr[i];
 	}
 
 	for (int i = 0; i < n; i++) {

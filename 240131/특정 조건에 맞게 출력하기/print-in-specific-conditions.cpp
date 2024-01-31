@@ -4,10 +4,10 @@ using namespace std;
 
 int main() {
     // 배열 선언
-    int arr[10];
+    int arr[100];
   
 
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < 100; i++) {
           cin >> arr[i];
          if(arr[i]  == 0)
             break;

@@ -11,12 +11,13 @@ int main() {
           cin >> arr[i];
          if(arr[i]  == 0)
             break;
-        else if (arr[i]%2 !=0) {
- cout << 3+arr[i] << " ";
-        }
-        else if  (arr[i]%2 ==0) {
+          else if  (arr[i]%2 ==0) {
 cout << arr[i]/2 << " ";
         }
+        else{
+ cout << 3+arr[i] << " ";
+        }
+      
             
     }
 	

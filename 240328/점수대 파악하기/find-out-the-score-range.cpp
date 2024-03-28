@@ -12,7 +12,7 @@ int main() {
 		cin >> arr[i];
 		if(arr[i] == 0)
 			break;
-		if(arr[i] <= 10)
+		if(arr[i] < 11)
 			continue;
 		count_arr[arr[i] / 10]++;
 	}

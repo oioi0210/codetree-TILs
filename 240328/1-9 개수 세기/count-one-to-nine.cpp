@@ -13,7 +13,7 @@ cin >> n;
 	}
 
 	// 개수 세기
-	for (int i = 1; i < 10; i++) {
+	for (int i = 1; i <=9; i++) {
 		cout << count_arr[arr[i]] << endl;
 	}
 

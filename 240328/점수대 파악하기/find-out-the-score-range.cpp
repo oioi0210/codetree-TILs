@@ -18,7 +18,7 @@ int main() {
 	}
 	
     // 1부터 9까지 나온 횟수를 출력
-    for(int i = 10; i >= 1; i--) {
+    for(int i = 10; i > 0; i--) {
         cout << i <<0<< " - " << count_arr[i] << endl;
     }
 

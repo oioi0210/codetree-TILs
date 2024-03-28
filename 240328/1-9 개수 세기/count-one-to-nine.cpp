@@ -9,7 +9,7 @@ cin >> n;
 
 	for (int i = 0; i < n; i++) {
 		cin >> arr[i];
-		countcount_arr[arr[i]]++;
+		count_arr[arr[i]]++;
 	}
 
 	// 개수 세기

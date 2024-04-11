@@ -10,7 +10,7 @@ int main() {
     char a;
     cin >> a;
 	// 문자 탐색
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i <= 5; i++) {
 		if (word[i] == a) {
 			idx = i;
 		}

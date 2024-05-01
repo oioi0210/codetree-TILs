@@ -19,7 +19,7 @@ int main() { // 여기에 코드를 작성해주세요.
                 {
                     
                     if (str1[j] == str2[s]) {
-                        cnt++;
+                        ++cnt;
                     }
                     else break;
                 }
@@ -28,7 +28,7 @@ int main() { // 여기에 코드를 작성해주세요.
         if (cnt == n2) {
             cout << "Yes";
         }
-        else {
+        else if (cnt <=n2) {
             cout << "No";
         }
     

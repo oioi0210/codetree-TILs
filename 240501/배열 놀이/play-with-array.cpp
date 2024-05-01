@@ -36,7 +36,7 @@ int main() {
             cin >> a;
             int idx = 0;
 
-            for (int j = 100; j >= 0; j--)
+            for (int j = 0; j <= 100; j++)
             {
                 if (arr[j] == a)
                 {

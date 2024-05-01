@@ -56,9 +56,9 @@ int main() {
         {
             cin >> a >> b;
 
-            for (int i = a; i <= b; i++)
+            for (int i = a-1; i < b; i++)
             {
-                cout << arr[i - 1] << " ";
+                cout << arr[i] << " ";
             }
 
             cout << endl;

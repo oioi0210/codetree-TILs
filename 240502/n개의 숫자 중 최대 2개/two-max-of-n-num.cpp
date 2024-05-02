@@ -24,7 +24,7 @@ int main() {
 		 max2_val = arr[1];
 	}
     for (int i = 0; i < n; i++) {
-		if (max_val>arr[i]&&max2_val<arr[i]) {
+		if (max_val>arr[i]&&max2_val<=arr[i]) {
 			max2_val=arr[i];
 		}
 	}

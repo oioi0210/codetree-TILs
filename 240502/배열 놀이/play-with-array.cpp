@@ -40,7 +40,7 @@ int main() {
             {
                 if (arr[j] == a)
                 {
-                    idx = j;
+                    idx = j+1;
                     break;
                 }
                 else

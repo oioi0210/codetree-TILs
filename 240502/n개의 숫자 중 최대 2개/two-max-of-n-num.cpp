@@ -16,7 +16,13 @@ int main() {
 			max_val = arr[i];
 		}
 	}
-    int max2_val = 0;
+	int max2_val{0};
+    if(max_val !=arr[0]){
+    max2_val =arr[0];
+	}
+	else {
+		 max2_val = arr[1];
+	}
     for (int i = 0; i < n; i++) {
 		if (max_val>arr[i]&&max2_val<arr[i]) {
 			max2_val=arr[i];

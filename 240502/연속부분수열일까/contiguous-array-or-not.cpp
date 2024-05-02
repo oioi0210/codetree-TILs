@@ -26,7 +26,9 @@ int main() { // 여기에 코드를 작성해주세요.
                     cnt++;
                     j++;
                 }
-                else break;
+                else {
+                    
+                }
             }
         }
     }

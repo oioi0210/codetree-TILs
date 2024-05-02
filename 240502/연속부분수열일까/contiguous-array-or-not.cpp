@@ -33,7 +33,7 @@ int main() { // 여기에 코드를 작성해주세요.
     if (cnt == n2) {
         cout << "Yes";
     }
-    else if (cnt <= n2) {
+    else  {
         cout << "No";
     }
 

@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// 인덱스 값이 true면 이미 등장한 수임
+int isDuplicated[1001];
+
 int main() {
 	int n;
 	cin >> n;
@@ -9,24 +12,20 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> arr[i];
 	}
-	int max{ 0 };
-	int cnt{ 0 };
+	int max{ -1 };
+
 	for (int i = 0; i < n; i++) {
-		if (max < arr[i]) {
+		int curNumber = arr[i];
+			isDuplicated[curNumber]++;
+	}
+	
+	for (int i = 0; i < n; i++) {
+		if (max < arr[i] && isDuplicated[arr[i]] == 1) {
 			max = arr[i];
-			cnt++;
-		}
-		else if (max == arr[i]) {
-			cnt = 0;
-			max = 0;
 		}
 	}
-	if (cnt == 0) {
-		cout << -1;
-	}
-	else {
-		cout << max;
-	}
+	
+	cout << max;
 	
 	return 0;
 }

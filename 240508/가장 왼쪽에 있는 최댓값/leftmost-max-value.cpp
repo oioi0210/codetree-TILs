@@ -28,9 +28,12 @@ int main() {
 		cout << cnt  << " ";
 		
 		max = 0;
-		cnt--;
-	
+		if (cnt ==1) {
+            break;
+        }
+            cnt--;
+        
 	}
-	cout << 1;
+	
 	return 0;
 }

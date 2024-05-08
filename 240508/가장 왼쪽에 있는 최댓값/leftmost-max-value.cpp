@@ -32,7 +32,6 @@ int main() {
             break;
         }
             cnt--;
-        
 	}
 	
 	return 0;

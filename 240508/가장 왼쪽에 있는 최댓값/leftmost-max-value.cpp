@@ -2,37 +2,36 @@
 using namespace std;
 
 int main() {
-	int n;
-	
-	cin >> n;
+    int N;
+    cin >> N; // 원소의 수
 
-	int arr[100];
+    int arr[N];
+    for (int i = 0; i < N; ++i) {
+        cin >> arr[i]; // 원소 입력
+    }
 
-	for (int i = 0; i < n; i++) {
-		cin >> arr[i];
-	}
-	int max{ 0 };
-	
-	int cnt = n;
-	int sun{ 0 };
-	while (true) {
-		
-		for (int i = 0; i < cnt; i++) {
-			if (max < arr[i]) {
-				max = arr[i];
-				sun = i;
-			}
-		}
-		cnt = sun + 1;
-		
-		cout << cnt  << " ";
-		
-		max = 0;
-		if (cnt ==1) {
-            break;
+    int maxPos = 0; // 최댓값의 위치
+    for (int i = 1; i < N; ++i) {
+        if (arr[i] >= arr[maxPos]) {
+            maxPos = i;
         }
-            cnt--;
-	}
+    }
+
+    cout << maxPos + 1 << " "; // 최댓값의 위치 출력
+
+    while (maxPos > 0) {
+        int newMaxPos = 0;
+        for (int i = 1; i < maxPos; ++i) {
+            if (arr[i] >= arr[newMaxPos]) {
+                newMaxPos = i;
+            }
+        }
+        cout << newMaxPos + 1 << " "; // 더 왼쪽 최댓값의 위치 출력
+        maxPos = newMaxPos;
+    }
+
+    return 0;
+}
 	
 	return 0;
 }

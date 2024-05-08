@@ -22,7 +22,7 @@ int main() {
     while (maxPos > 0) {
         int newMaxPos = 0;
         for (int i = 1; i < maxPos; ++i) {
-            if (arr[i] >= arr[newMaxPos]) {
+            if (arr[i] > arr[newMaxPos]) {
                 newMaxPos = i;
             }
         }

@@ -12,7 +12,7 @@ int main() {
 
     int maxPos = 0; // 최댓값의 위치
     for (int i = 1; i < N; ++i) {
-        if (arr[i] >= arr[maxPos]) {
+        if (arr[i] >arr[maxPos]) {
             maxPos = i;
         }
     }

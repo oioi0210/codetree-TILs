@@ -15,9 +15,9 @@ int main() {
        }
     }
     cout << max1 << " ";
-    int max2{ 0 };
+    int max2{ 1000};
     for (int i = 0; i < 10; ++i) {
-        if (arr[i] > 500 && max2 < arr[i]) {
+        if (arr[i] > 500 && max2 > arr[i]) {
             max2 = arr[i];
         }
     }

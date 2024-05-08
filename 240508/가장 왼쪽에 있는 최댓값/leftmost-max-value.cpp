@@ -15,7 +15,7 @@ int main() {
 	
 	int cnt = n;
 	int sun{ 0 };
-	while (cnt !=1) {
+	while (true) {
 		
 		for (int i = 0; i < cnt; i++) {
 			if (max < arr[i]) {

@@ -8,7 +8,7 @@ void Print5Stars() {
 }
 
 int main() {
-    for(int i = 0; i < 4; i++)
+    for(int i = 0; i < 5; i++)
         Print5Stars(); 
     return 0;
 }

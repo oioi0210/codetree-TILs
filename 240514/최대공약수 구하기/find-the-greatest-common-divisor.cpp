@@ -12,5 +12,12 @@ gong=i;
    }
    }
     }
+        if (n>m) {
+   for (int i=1; i <= m; i++) {
+   if( n%i==0 && m%i==0 ) {
+gong=i;
+   }
+   }
+    }
     cout << gong;
 }
